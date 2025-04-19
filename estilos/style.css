@@ -2,7 +2,7 @@
 
 /* Paleta de cores
 
-Lilas: #BD48A7
+Lilas: #bd48a888
 Verde: #90FF72
 */
 
@@ -14,7 +14,7 @@ Verde: #90FF72
 }
 
 body, html{
-    background-color: #BD48A7 ;
+    background-color: #bd48a888 ;
     height: 100vh;
     width: 100vw;
 }
@@ -37,14 +37,22 @@ main {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.208);
 
 }
 
 #login > #imagem {
-    background: #BD48A7 url(../imagens/cidadeclara.jpg) no-repeat;
+    display: block;
+    background: #BD48A7 url(../imagens/cidadeescuro.jpg) no-repeat;
     background-size: cover;
 
 
     height: 200px;
     
+}
+
+#login > #formulario{
+    display: block;
+    padding: 10px;
+
 }
